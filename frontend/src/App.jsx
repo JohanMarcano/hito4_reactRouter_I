@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-//import Home from './components/Home';
+import MyNavbar from './components/MyNavbar';
+//import Home from './pages/Home';
 import Footer from './components/Footer';
-import Pizza from './components/Pizza';
-// import RegisterPage from './components/RegisterPage'; 
-// import LoginPage from './components/LoginPage'; 
-//import Cart from './components/Cart';
+import Pizza from './pages/Pizza';
+// import RegisterPage from './pages/RegisterPage'; 
+// import LoginPage from './pages/LoginPage'; 
+//import Cart from './pages/Cart';
 
 const App = () => {
   return (
     <div> 
-      <Navbar />
+      <MyNavbar />
       <div >
         {/*<Home />*/}
         <Pizza />

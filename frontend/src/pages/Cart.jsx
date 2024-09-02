@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { pizzaCart } from './pizzas'; 
-import CardPizza from './CardPizza';
+import { pizzaCart } from '../components/pizzas'; 
+import CardPizza from '../components/CardPizza';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

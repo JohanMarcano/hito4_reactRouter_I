@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import CardPizza from './CardPizza';
-import './Pizza.css';
+import CardPizza from '../components/CardPizza';
+import '../components/Pizza.css';
 
 const Pizza = () => {
   const [pizza, setPizza] = useState(null); // Inicializa como `null` porque esperas un objeto
