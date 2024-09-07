@@ -63,3 +63,11 @@ button {
   grid-template-columns: auto auto auto;
   padding: 20px;
 }
+
+
+.login{
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

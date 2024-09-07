@@ -42,7 +42,8 @@ const LoginPage = () => {
   };
 
   return (
-    <Form noValidate onSubmit={handleSubmit}>
+    <div className='login'>
+      <Form noValidate onSubmit={handleSubmit}>
       <h1>Login</h1>
       <Row className="mb-3">
         <Form.Group as={Col} md="6" controlId="validationEmail">
@@ -70,6 +71,7 @@ const LoginPage = () => {
       </Row>
       <Button type="submit">Iniciar sesión</Button>
     </Form>
+    </div>
   );
 };
 

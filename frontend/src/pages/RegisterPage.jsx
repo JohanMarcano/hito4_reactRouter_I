@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import './RegisterPage.css';
+import '../components/RegisterPage.css';
 
 const RegisterPage = () => {
   const [validated, setValidated] = useState(false);
